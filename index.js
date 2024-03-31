@@ -95,10 +95,10 @@ app.get("/allcars", function (req, res) {
         return;
       }
       res.json(results);
-    });
+    })
   });
 
-let PORT = process.env.PORT || 5005;
+let PORT = process.env.PORT || 5000;
 
 /*
 const port = PORT;
